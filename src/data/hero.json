@@ -1,0 +1,25 @@
+[
+  {
+    "image": "/hero/hero-1.webp",
+    "badge": "New Collection",
+    "title": "What began in technology now lives in fabric - smart, durable, and made for modern life.",
+    "description": "Engineered for connection. Designed for comfort. Woven in Nova Scotia.",
+    "primaryCta": "Shop Now",
+    "secondaryCta": "Learn More"
+  },
+  {
+    "image": "/hero/hero-2.webp",
+    "badge": "Premium Quality",
+    "title": "Where comfort meets luxury",
+    "description": "Discover the perfect blend of sophisticated design and exceptional craftsmanship. Every piece meticulously tailored.",
+    "primaryCta": "Shop Now"
+  },
+  {
+    "image": "/hero/hero-3.webp",
+    "badge": "Limited Edition",
+    "title": "Elevate your wardrobe",
+    "description": "Embrace extraordinary style with our exclusive pieces and sustainable materials. Fashion reimagined.",
+    "primaryCta": "Shop now",
+    "secondaryCta": "Watch Video"
+  }
+]

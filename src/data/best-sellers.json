@@ -1,0 +1,62 @@
+[
+  {
+    "id": "14",
+    "name": "White Tee",
+    "collection": "Original Collection",
+    "price": 32.99,
+    "image": "/products/white-tee.webp",
+    "alt": "Plain white t-shirt classic design",
+    "isNew": false,
+    "description": "Essential white tee made from soft, breathable cotton for a clean, classic look anytime."
+  },
+  {
+    "id": "11",
+    "name": "Red Jacket",
+    "collection": "Winter Collection",
+    "price": 139.99,
+    "image": "/products/red-jacket.webp",
+    "alt": "Red winter jacket for cold weather comfort",
+    "isNew": false,
+    "description": "A bold red winter jacket that delivers warmth and attitude for cold-weather comfort."
+  },
+  {
+    "id": "9",
+    "name": "Leather Jacket",
+    "collection": "Fall Collection",
+    "price": 169.99,
+    "image": "/products/leather-jacket.webp",
+    "alt": "Modern black leather jacket",
+    "isNew": true,
+    "description": "Modern leather jacket built for confidence and comfort — sleek lines and timeless appeal."
+  },
+  {
+    "id": "7",
+    "name": "Denim Shirt",
+    "collection": "Fall Collection",
+    "price": 69.59,
+    "image": "/products/denim-shirt.webp",
+    "alt": "Classic denim shirt with soft washed finish",
+    "isNew": true,
+    "description": "A soft-washed denim shirt with a clean silhouette — perfect to layer or wear on its own."
+  },
+  {
+    "id": "2",
+    "name": "Blue Denim Jeans",
+    "collection": "Original Collection",
+    "price": 79.0,
+    "image": "/products/blue-jeans.webp",
+    "alt": "Blue denim jeans with modern tapered fit",
+    "isNew": false,
+    "description": "Timeless blue denim with a modern tapered fit and durable stitching for lasting wear."
+  },
+   {
+    "id": "1",
+    "name": "Blank Black Tee",
+    "collection": "Original Collection",
+    "price": 29.99,
+    "image": "/products/blank-black-tee.webp",
+    "alt": "Black t-shirt from the Original Collection",
+    "isNew": false,
+    "description": "A classic black tee crafted from premium cotton. Minimal, versatile, and built for everyday comfort."
+  }
+]

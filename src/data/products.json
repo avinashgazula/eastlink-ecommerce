@@ -1,0 +1,152 @@
+[
+  {
+    "id": "1",
+    "name": "Blank Black Tee",
+    "collection": "Original Collection",
+    "price": 29.99,
+    "image": "/products/blank-black-tee.webp",
+    "alt": "Black t-shirt from the Original Collection",
+    "isNew": false,
+    "description": "A classic black tee crafted from premium cotton. Minimal, versatile, and built for everyday comfort."
+  },
+  {
+    "id": "2",
+    "name": "Blue Denim Jeans",
+    "collection": "Original Collection",
+    "price": 79.0,
+    "image": "/products/blue-jeans.webp",
+    "alt": "Blue denim jeans with modern tapered fit",
+    "isNew": false,
+    "description": "Timeless blue denim with a modern tapered fit and durable stitching for lasting wear."
+  },
+  {
+    "id": "3",
+    "name": "Brown Jacket",
+    "collection": "Winter Collection",
+    "price": 129.99,
+    "image": "/products/brown-jacket.webp",
+    "alt": "Brown winter jacket for cold weather",
+    "isNew": false,
+    "description": "A sleek brown jacket designed for warmth and subtle sophistication during cooler months."
+  },
+  {
+    "id": "4",
+    "name": "Brown Leather Jacket",
+    "collection": "Fall Collection",
+    "price": 179.99,
+    "image": "/products/brown-leather-jacket.webp",
+    "alt": "Brown leather jacket with rugged stylish design",
+    "isNew": true,
+    "description": "Genuine leather jacket combining timeless design with rugged durability for everyday edge."
+  },
+  {
+    "id": "5",
+    "name": "Camo Jacket",
+    "collection": "Fall Collection",
+    "price": 129.99,
+    "image": "/products/camo-jacket.webp",
+    "alt": "Camo printed jacket for outdoor and urban style",
+    "isNew": true,
+    "description": "A bold camo-printed jacket made for layering — ideal for urban explorers and weekend getaways."
+  },
+  {
+    "id": "6",
+    "name": "Cargo Pants",
+    "collection": "Original Collection",
+    "price": 69.99,
+    "image": "/products/cargo-pants.webp",
+    "alt": "Utility cargo pants with side pockets",
+    "isNew": false,
+    "description": "Utility-inspired cargo pants with functional pockets and a relaxed fit for effortless mobility."
+  },
+  {
+    "id": "7",
+    "name": "Denim Shirt",
+    "collection": "Fall Collection",
+    "price": 69.59,
+    "image": "/products/denim-shirt.webp",
+    "alt": "Classic denim shirt with soft washed finish",
+    "isNew": true,
+    "description": "A soft-washed denim shirt with a clean silhouette — perfect to layer or wear on its own."
+  },
+  {
+    "id": "8",
+    "name": "Green Tee",
+    "collection": "Original Collection",
+    "price": 42.49,
+    "image": "/products/green-tee.webp",
+    "alt": "Green crewneck t-shirt",
+    "isNew": false,
+    "description": "A vibrant green crewneck tee in premium cotton that adds modern color to your wardrobe."
+  },
+  {
+    "id": "9",
+    "name": "Leather Jacket",
+    "collection": "Fall Collection",
+    "price": 169.99,
+    "image": "/products/leather-jacket.webp",
+    "alt": "Modern black leather jacket",
+    "isNew": true,
+    "description": "Modern leather jacket built for confidence and comfort — sleek lines and timeless appeal."
+  },
+  {
+    "id": "10",
+    "name": "Pajama Pants",
+    "collection": "Original Collection",
+    "price": 49.99,
+    "image": "/products/pajamas.webp",
+    "alt": "Soft cotton pajama pants for lounging",
+    "isNew": false,
+    "description": "Lightweight pajama pants with a relaxed cut — made for downtime and cozy weekends."
+  },
+  {
+    "id": "11",
+    "name": "Red Jacket",
+    "collection": "Winter Collection",
+    "price": 139.99,
+    "image": "/products/red-jacket.webp",
+    "alt": "Red winter jacket for cold weather comfort",
+    "isNew": false,
+    "description": "A bold red winter jacket that delivers warmth and attitude for cold-weather comfort."
+  },
+  {
+    "id": "12",
+    "name": "Red Tee",
+    "collection": "Original Collection",
+    "price": 35.99,
+    "image": "/products/red-tee.webp",
+    "alt": "Vibrant red cotton t-shirt",
+    "isNew": false,
+    "description": "A striking red tee that stands out for its softness, simplicity, and perfect everyday fit."
+  },
+  {
+    "id": "13",
+    "name": "Striped Tee",
+    "collection": "Winter Collection",
+    "price": 45.99,
+    "image": "/products/striped-tee.webp",
+    "alt": "Striped t-shirt with navy and white pattern",
+    "isNew": false,
+    "description": "Casual striped tee with coastal inspiration — lightweight, breathable, and effortlessly cool."
+  },
+  {
+    "id": "14",
+    "name": "White Tee",
+    "collection": "Original Collection",
+    "price": 32.99,
+    "image": "/products/white-tee.webp",
+    "alt": "Plain white t-shirt classic design",
+    "isNew": false,
+    "description": "Essential white tee made from soft, breathable cotton for a clean, classic look anytime."
+  },
+  {
+    "id": "15",
+    "name": "Yellow Pants",
+    "collection": "Original Collection",
+    "price": 69.99,
+    "image": "/products/yellow-pants.webp",
+    "alt": "Bright yellow slim fit pants",
+    "isNew": false,
+    "description": "Statement yellow pants featuring a slim modern cut — bold color with effortless comfort."
+  }
+]
