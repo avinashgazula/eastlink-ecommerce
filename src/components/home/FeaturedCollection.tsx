@@ -27,7 +27,7 @@ export function FeaturedCollection({ featuredCollectionInfo }: Readonly<Featured
         id="featured-heading"
         className="text-center text-sm font-medium tracking-wider text-muted-foreground mb-8"
       >
-        FEATURED collection
+        FEATURED COLLECTION
       </h2>
 
       <div className="grid grid-cols-1 md:grid-cols-4 md:grid-rows-6 gap-4 max-w-9xl mx-auto md:max-h-[600px]">
