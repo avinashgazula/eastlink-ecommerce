@@ -2,6 +2,8 @@
 
 ## Deployed URL
 
+    https://eastlink-ecommerce.netlify.app/
+
 
 E-Commerce website created for Eastlink.
 

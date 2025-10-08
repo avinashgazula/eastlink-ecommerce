@@ -14,7 +14,7 @@ export default async function ProductPage({
 }>) {
   const { id } = await params;
 
-  const res = await fetch(`${BASE_URL}}/api/products`, {
+  const res = await fetch(`${BASE_URL}/api/products`, {
     cache: "no-store",
   });
 
