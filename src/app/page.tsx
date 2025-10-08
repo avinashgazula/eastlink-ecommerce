@@ -8,9 +8,10 @@ import { HeroSection, HeroSlide } from "@/components/main/Hero";
 import { Toaster } from "sonner";
 import { Product } from "./products/page";
 
-async function getHeroData(): Promise<HeroSlide[]> {
+const BASE_URL = process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : process.env.NEXT_PUBLIC_SITE_URL
 
-  const res = await fetch(`${process.env.NEXT_PUBLIC_SITE_URL}/api/hero`, {
+async function getHeroData(): Promise<HeroSlide[]> {
+  const res = await fetch(`${BASE_URL}/api/hero`, {
     cache: "force-cache",
   });
   if (!res.ok) {
@@ -20,7 +21,7 @@ async function getHeroData(): Promise<HeroSlide[]> {
 }
 
 async function getFeaturedCollectionData(): Promise<FeaturedCollectionInfo> {
-  const res = await fetch(`${process.env.NEXT_PUBLIC_SITE_URL}/api/featured`, {
+  const res = await fetch(`${BASE_URL}/api/featured`, {
     cache: "force-cache",
   });
   if (!res.ok) {
@@ -30,7 +31,7 @@ async function getFeaturedCollectionData(): Promise<FeaturedCollectionInfo> {
 }
 
 async function getBestSellerDatas(): Promise<Product[]> {
-  const res = await fetch(`${process.env.NEXT_PUBLIC_SITE_URL}/api/products/best`, {
+  const res = await fetch(`${BASE_URL}/api/products/best`, {
       cache: "force-cache"
     });
     if (!res.ok) {

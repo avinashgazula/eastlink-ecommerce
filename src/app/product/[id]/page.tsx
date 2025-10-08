@@ -3,7 +3,7 @@ import { Header } from "@/components/main/Header";
 import { ProductDetail } from "@/components/products/ProductDetail";
 import { notFound } from "next/navigation";
 
-const BASE_URL = process.env.VERCEL_URL ? process.env.VERCEL_URL : process.env.NEXT_PUBLIC_SITE_URL
+const BASE_URL = process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : process.env.NEXT_PUBLIC_SITE_URL
 
 export async function generateStaticParams() {
 

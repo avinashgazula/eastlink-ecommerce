@@ -6,7 +6,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { useEffect, useRef, useState } from "react"
 
-const BASE_URL = process.env.VERCEL_URL ? process.env.VERCEL_URL : process.env.NEXT_PUBLIC_SITE_URL
+const BASE_URL = process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : process.env.NEXT_PUBLIC_SITE_URL
 
 
 export function ItemSearch() {

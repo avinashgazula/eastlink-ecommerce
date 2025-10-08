@@ -13,7 +13,7 @@ export interface Product {
     "description": string
 }
 
-const BASE_URL = process.env.VERCEL_URL ? process.env.VERCEL_URL : process.env.NEXT_PUBLIC_SITE_URL
+const BASE_URL = process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : process.env.NEXT_PUBLIC_SITE_URL
 
 async function Products() {
     const res = await fetch(`${BASE_URL}/api/products`, {
