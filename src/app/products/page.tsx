@@ -13,6 +13,8 @@ export interface Product {
     "description": string
 }
 
+export const dynamic = 'force-dynamic';
+
 const BASE_URL = process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : process.env.NEXT_PUBLIC_SITE_URL
 
 async function Products() {

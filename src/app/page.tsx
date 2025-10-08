@@ -8,6 +8,8 @@ import { HeroSection, HeroSlide } from "@/components/main/Hero";
 import { Toaster } from "sonner";
 import { Product } from "./products/page";
 
+export const dynamic = 'force-dynamic';
+
 const BASE_URL = process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : process.env.NEXT_PUBLIC_SITE_URL
 
 async function getHeroData(): Promise<HeroSlide[]> {
