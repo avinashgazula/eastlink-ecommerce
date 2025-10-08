@@ -3,9 +3,11 @@ import { Header } from "@/components/main/Header";
 import { ProductDetail } from "@/components/products/ProductDetail";
 import { notFound } from "next/navigation";
 
+const BASE_URL = process.env.VERCEL_URL ? process.env.VERCEL_URL : process.env.NEXT_PUBLIC_SITE_URL
+
 export async function generateStaticParams() {
 
-  const res = await fetch(`${process.env.NEXT_PUBLIC_SITE_URL}/api/products`, {
+  const res = await fetch(`${BASE_URL}/api/products`, {
     cache: "force-cache",
   });
   const products = await res.json();
@@ -21,7 +23,7 @@ export default async function ProductPage({
 }>) {
   const { id } = await params;
 
-  const res = await fetch(`${process.env.NEXT_PUBLIC_SITE_URL}/api/products`, {
+  const res = await fetch(`${BASE_URL}/api/products`, {
     cache: "force-cache",
   });
   const products = await res.json();

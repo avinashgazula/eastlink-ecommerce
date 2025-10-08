@@ -6,6 +6,9 @@ import Image from "next/image"
 import Link from "next/link"
 import { useEffect, useRef, useState } from "react"
 
+const BASE_URL = process.env.VERCEL_URL ? process.env.VERCEL_URL : process.env.NEXT_PUBLIC_SITE_URL
+
+
 export function ItemSearch() {
   const [isSearchOpen, setIsSearchOpen] = useState(false)
   const [searchQuery, setSearchQuery] = useState("")
@@ -16,7 +19,7 @@ export function ItemSearch() {
   useEffect(() => {
     async function searchProducts() {
       try {
-      const res = await fetch(`${process.env.NEXT_PUBLIC_SITE_URL}/api/products`);
+      const res = await fetch(`${BASE_URL}/api/products`);
         const products = await res.json();
 
       if (searchQuery.trim()) {
