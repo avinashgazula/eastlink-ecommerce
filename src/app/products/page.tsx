@@ -1,6 +1,7 @@
 import { Footer } from "@/components/main/Footer";
 import { Header } from "@/components/main/Header";
 import { Card } from "@/components/products/Card";
+import { getProductsData } from "../requests/getProductsData";
 
 export interface Product {
     "id": string,
@@ -13,15 +14,8 @@ export interface Product {
     "description": string
 }
 
-export const dynamic = 'force-dynamic';
-
-const BASE_URL = process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : process.env.NEXT_PUBLIC_SITE_URL
-
 async function Products() {
-    const res = await fetch(`${BASE_URL}/api/products`, {
-        cache: "force-cache",
-    });
-     const products = await res.json();
+     const products = await getProductsData()
 
 
     return (

@@ -1,13 +1,11 @@
 "use client"
 
 import { Product } from "@/app/products/page"
+import { getProductsData } from "@/app/requests/getProductsData"
 import { Search, X } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
 import { useEffect, useRef, useState } from "react"
-
-const BASE_URL = process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : process.env.NEXT_PUBLIC_SITE_URL
-
 
 export function ItemSearch() {
   const [isSearchOpen, setIsSearchOpen] = useState(false)
@@ -19,9 +17,7 @@ export function ItemSearch() {
   useEffect(() => {
     async function searchProducts() {
       try {
-      const res = await fetch(`${BASE_URL}/api/products`);
-        const products = await res.json();
-
+      const products = await getProductsData()
       if (searchQuery.trim()) {
       const query = searchQuery.toLowerCase()
       const filtered = products

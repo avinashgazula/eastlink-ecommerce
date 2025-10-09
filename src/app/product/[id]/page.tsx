@@ -1,11 +1,10 @@
 import { Product } from "@/app/products/page";
+import { getProductsData } from "@/app/requests/getProductsData";
 import { Header } from "@/components/main/Header";
 import { ProductDetail } from "@/components/products/ProductDetail";
 import { notFound } from "next/navigation";
 
-export const dynamic = 'force-dynamic';
-
-const BASE_URL = process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : process.env.NEXT_PUBLIC_SITE_URL
+export const revalidate = 3600;
 
 export default async function ProductPage({
   params,
@@ -14,16 +13,8 @@ export default async function ProductPage({
 }>) {
   const { id } = await params;
 
-  const res = await fetch(`${BASE_URL}/api/products`, {
-    cache: "no-store",
-  });
 
-  if (!res.ok) {
-    console.error(`Failed to fetch products: ${res.status} ${res.statusText}`);
-    notFound();
-  }
-
-  const products = await res.json();
+  const products = await getProductsData()
   const product = products.find((p: Product) => p.id === id);
 
   if (!product) {
